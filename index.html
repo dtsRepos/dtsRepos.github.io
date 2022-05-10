@@ -21,14 +21,25 @@
     <!--<div class="menuToggle" onclick="toggleMenu();">Sao</div>-->
     <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
-        <li><a href="#">Voyage</a></li>
-        <li><a href="#">Location</a></li>
-        <li><a href="#">Qui sommes nous ?</a></li>
-        <li><a href="#">Nos services</a></li>
-        <li><a href="#">Equipe</a></li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#" onclick="toggleMenu();">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Voyage</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Location</a>
+        </li class="nav-item">
+        
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Nos services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">L'Equipe</a>
+        </li>
+        
         <!--
-
+        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
         <li><a href="#apropos" onclick="toggleMenu();">Qui sommes nous ?</a></li>
         <li><a href="#menu" onclick="toggleMenu();">Nos services</a></li>
         <li><a href="#expert" onclick="toggleMenu();">Equipe</a></li>
@@ -45,7 +56,7 @@
 </header>
 
 <section>
-    <div class="container">
+    <div class="mt-5 container">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -92,6 +103,12 @@
     </div>
 
 </section>
+<section>
+    <div class="mt-5 container">
+        <br>
+        <br>
+    </div>
+</section>
 
 <!--
 <section class="banniere" id="banniere">
@@ -105,37 +122,41 @@
 -->
 
 <section class="menu" id="menu">
+    <!--
     <div class="titre">
         <h2 class="titre-texte"><span>S</span>ervices</h2>
         <p>Nous sommes une entreprise  de transport interurbain qui offre des services tel que :
             la location de voiture, l'envoi  de colis et le voyage inter-urbain.
              </p>
     </div>
-    <div class="contenu">
-        <div class="box">
-            <div class="imbox">
-                <img src="./images/bus1.jpeg" alt="">
-            </div>
-            <div class="text">
-                <h3>Voyage</h3>
-            </div>
-        </div>
-        <div class="box">
-            <div class="imbox">
-                <img src="./images/sao8.jpg" alt="">
-            </div>
-            <div class="text">
-                <h3>Envoie de colis</h3>
-            </div>
-        </div>
-        <div class="box">
-            <div class="imbox">
-                <img src="./images/sao3.jpg" alt="">
-            </div>
-            <div class="text">
-                <h3>Location</h3>
-            </div>
-        </div>
+-->
+<div class="mt-5 container" style="text-align: center;">
+    <div class="row height card-deck">
+      <div class="col-lg-4 shadow card-body" style="width: 20rem;margin-left: 2%;">
+        <img src="./images/sao3.jpg" width="140" height="140" class="rounded-circle" alt="im">
+       
+        <h4>Voyage</h4>
+        <p>Voyagez en toute liberté et sécurité avec nos bus confortables et climatisés.
+            Parcourez toute la sous région  avec nos lignes.</p>
+        <p><a class="btn btn-secondary" href="#">voir les détails &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 shadow card-body" style="width: 20rem;margin-left: 2%;">
+        <img src="./images/sao8.jpg" width="140" height="140" class="rounded-circle" alt="im">
+
+        <h4>Envoie de colis</h4>
+        <p>Envoyez tous vos colis en toute sécurité chez nous à partir de 2000F.</p>
+        <br>
+        <br>
+        <p><a class="btn btn-secondary" href="#">voir les détails &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 shadow card-body" style="width: 20rem;margin-left: 5%;">
+        <img src="./images/sao3.jpg" width="140" height="140" class="rounded-circle" alt="im">
+
+        <h4>Location de vehicule</h4>
+        <p>Nous vous offrons un service de location de bus, minibus ou 4*4 avec ou sans  chauffeur pour un voyage de confort et de sécurité.</p>
+        <p><a class="btn btn-secondary" href="#">voir les détails &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
         <!--
         <div class="box">
             <div class="imbox">
@@ -179,13 +200,22 @@
         </div>
     -->
     </div>
- </div>
+<!--
  <div class="titre">
     <a href="#" class="btn1">Voir Plus</a>
  </div>
+-->
+</section>
+
+<section>
+    <div class="mt-5 container">
+        <br>
+        <br>
+    </div>
 </section>
 
 <section class="apropos" id="apropos">
+    <div class="container">
     <div class="row">
         <div class="col50">
             <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
@@ -200,8 +230,9 @@
             </div>
         </div>
     </div>
+</div>
 </section>
-
+<!--
 <section class="expert" id="expert">
     <div class="titre">
         <h2 class="titre-texte">Nos <span>E</span>quipes</h2>
@@ -246,6 +277,7 @@
     </div>
  </div>
 </section>
+-->
 <!--
  <section class="temoignage" id="temoignage">
     <div class="titre blanc">
